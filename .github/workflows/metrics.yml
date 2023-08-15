@@ -31,7 +31,7 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 0
           plugin_languages_skipped: >-
-            PonyPete/steamRun_old, PonyPete/PonyPete
+            PonyPete/steamRun_old, PonyPete/PonyPete, PonyPete/goat-game
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.habits.facts.svg
@@ -45,7 +45,7 @@ jobs:
           plugin_habits_languages_limit: 1
           plugin_habits_languages_threshold: 100%
           plugin_habits_skipped: >-
-            PonyPete/steamRun_old, PonyPete/PonyPete
+            PonyPete/steamRun_old, PonyPete/PonyPete, PonyPete/goat-game
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.lines.history.svg
@@ -57,4 +57,4 @@ jobs:
           plugin_lines_repositories_limit: 2
           plugin_lines_history_limit: 1
           plugin_lines_skipped: >-
-            PonyPete/steamRun_old, PonyPete/PonyPete
+            PonyPete/steamRun_old, PonyPete/PonyPete, PonyPete/goat-game
